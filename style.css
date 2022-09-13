@@ -6,11 +6,18 @@ body {
 
 .header {
     display: flex;
-    gap: 16px;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.one {
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
     margin-left: auto;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
 }

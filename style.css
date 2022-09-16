@@ -34,7 +34,7 @@ a {
     font-size: 24px;
 }
 
-body, .header, ul, .main-title, .image-container, .upper-middle, .call-container {
+body, .header, ul, .main-title, .image-container, .upper-middle, .call-container, .footer {
     display: flex;
 }
 
@@ -150,7 +150,7 @@ button:active {
 }
 
 .sign-up-bottom {
-    border: 2px white solid;
+    border: 2px #F9FAF8 solid;
     margin-left: auto;
 }
 
@@ -163,4 +163,15 @@ button:active {
 .call-lower {
     color:#E5E7Eb;
     font-size: 16px;
+}
+
+.footer {
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 20px;
 }
